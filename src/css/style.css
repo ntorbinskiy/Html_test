@@ -1,0 +1,86 @@
+
+h2 {
+    color: blue;
+    text-align: center; /* положениие текста */
+    font-weight:bold; /* жирность шрифта */
+    font-style:italic;  /* курсив */
+    text-decoration: underline; /* потчеркнутый  */
+    
+}
+*{
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 30px;
+}
+
+
+.chapter {
+    color: red;
+}
+
+#begin {
+    color: orange;
+}
+body {
+    background-color:bisque;
+}
+
+.mine {
+    color:#FF7F50 ;/* hex code */
+}
+
+.be {
+    color:	rgb(0,0,139,);
+}
+
+
+
+.box {
+    
+    display: inline-block;
+    vertical-align: middle; /* только при инлайн блок */
+    width: 300px;  /* ширина */
+    height: 300px; /* высота */
+    background-color:green;
+    padding: 20px ;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    border: 3px inherit black;
+    margin: 20px;
+    z-index: 3;
+}
+
+nav {/* 
+    static,relative,absolut,fixed,inherit */
+    position:inherit; 
+    /* right,bottom,top,left */
+   /* left: 0px;
+    bottom: 150px; */
+}
+.example {
+    position: relative;
+}
+.red {
+    background-color:red ; 
+   font-size: 30px ;
+    width: 50vh ;
+   /*  vw-1/100 ширины окна сайта
+       vh-1/100 высоты окна  */
+
+
+}
+
+a {
+    padding: 20px; /* строчные елементы занимают столько места,сколько им нужно */
+    margin: 20px;/*  если марджин появляется только с боковых сторон, то это строчный элемент */
+    width: 500px; /* строчные не реагируют на параметры*/
+}
+img {
+    width: 500px;
+    display:block ;
+    margin: 0 auto;
+    float: right;
+}
